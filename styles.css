@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans&family=Poppins:wght@100&display=swap');
+:root {
+    --fontColor: rgb(196, 196, 210);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans&family=Poppins:wght@100&display=swap');
+body {
+    font-family: 'Expletus Sans', cursive;
+    display: flex;
+    /* border: 2px solid blue; */
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/crypto_bg.jpeg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 40vw;
+    height: 100vh;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    justify-content: space-around;
+    background-color: black;
+    width: 60vw;
+}
+
+.right>div {
+    /* border: 2px solid green; */
+    color: var(--fontColor, white);
+    ;
+    margin-left: 30px;
+    margin-right: max(30px, 10%);
+    font-size: 140%;
+}
+
+.right>.top {
+    margin-top: 50px;
+}
+
+.right>.bottom {
+    margin-bottom: 50px;
+}
+
+.dark_bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    opacity: 60%;
+    height: max(60px, 15%);
+    width: 100%;
+    /* border: 2px solid yellow; */
+    position: relative;
+    top: 25vh;
+    color: var(--fontColor, white);
+    ;
+    font-weight: 900;
+    font-size: 200%;
+}
+
+.p2 {
+    margin-top: 60px;
+}
+
+form {
+    display: flex;
+}
+
+form>div>div {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+button,
+input[type="button"],
+input[type="submit"] {
+    padding: 0;
+    margin: 0;
+    border: 2px solid rgb(133, 133, 177);
+    background: none;
+    font: inherit;
+    cursor: pointer;
+    height: 60px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: black;
+    color: rgb(133, 133, 177);
+}
+
+button:hover {
+    background-color: rgb(133, 133, 177);
+    color: var(--fontColor, white);
+    ;
+}
+
+button:active {
+    background-color: rgb(159, 159, 187);
+    border: 2px solid rgb(159, 159, 187);
+}
+
+label {
+    font-size: 14px;
+}
+
+div>input,
+div>input:-webkit-autofill {
+    background-color: black;
+    border: 2px solid rgb(133, 133, 177);
+    border-radius: 5px;
+    color: rgb(133, 133, 177);
+}
+
+
+}
+body {
+    font-family: 'Expletus Sans', cursive;
+    display: flex;
+    /* border: 2px solid blue; */
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/crypto_bg.jpeg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 40vw;
+    height: 100vh;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    
+    justify-content: space-around;
+    background-color: black;
+    width: 60vw;
+}
+.right>div {
+    /* border: 2px solid green; */
+    
+    color: var(--fontColor, white);
+    margin-right: max(30px, 10%);
+    font-size: 140%;
+}
+.right>.top {
+    margin-top: 50px;
+}
+.right>.bottom {
+    margin-bottom: 50px;
+}
+.dark_bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    opacity: 60%;
+    height: max(60px, 15%);
+    width: 100%;
+    /* border: 2px solid yellow; */
+    
+    position: relative;
+    top: 25vh;
+    color: var(--fontColor, white);
+    ;
+    font-weight: 900;
+    font-size: 200%;
+}
+.p2 {
+    margin-top: 60px;
+}
+form {
+    /* border: 2px solid blue; */
+    
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.form-left,
+.form-right {
+    width: 50%;
+}
+form>div>div {
+    /* border: 2px solid blue; */
+    
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-right: 30px;
+}
+button,
+input[type="button"],
+input[type="submit"] {
+    padding: 0;
+    margin: 0;
+    border: 2px solid rgb(133, 133, 177);
+    background: none;
+    font: inherit;
+    cursor: pointer;
+    height: 60px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: black;
+    color: rgb(133, 133, 177);
+}
+button:hover {
+    background-color: rgb(133, 133, 177);
+    color: var(--fontColor, white);
+    ;
+}
+button:active {
+    background-color: rgb(159, 159, 187);
+    border: 2px solid rgb(159, 159, 187);
+}
+label {
+    font-size: 14px;
+}
+div>input {
+    background-color: black;
+    border: 2px solid rgb(133, 133, 177);
+    border-radius: 5px;
+    color: var(--fontColor, white);
+}
