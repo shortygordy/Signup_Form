@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
     <title>Sign Up Form</title>
 </head>
 
@@ -25,48 +24,52 @@
         </div>
         <div class="center">
             <p class="form-title">Give us your info. We will sell it.</p>
-            <form action="post">
+            <form action="post" id="myForm">
                 <div class="form-left">
                     <div>
                         <label for="first-name">FIRST NAME</label>
-                        <input type="text" name="first-name" id="first-name">
+                        <input type="text" name="first-name" id="first-name" tabindex="1" required>
                     </div>
 
                     <div>
                         <label for="email">EMAIL</label>
-                        <input type="email" name="email" id="email">
+                        <input type="email" name="email" id="email" tabindex="3" required>
                     </div>
 
                     <div>
                         <label for="password">PASSWORD</label>
-                        <input type="password" name="password" id="password">
+                        <input type="password" name="password" id="password" tabindex="5" required>
                     </div>
                 </div>
                 <div class="form-right">
                     <div>
                         <label for="last-name">LAST NAME</label>
-                        <input type="text" name="first-name" id="first-name">
+                        <input type="text" name="first-name" id="first-name" tabindex="2" required>
                     </div>
 
                     <div>
                         <label for="phone-number">PHONE NUMBER</label>
-                        <input type="phone-number" name="phone-number" id="email">
+                        <input type="phone-number" name="phone-number" id="email" tabindex="4" required>
                     </div>
 
                     <div>
                         <label for="confirm-password">CONFIRM PASSWORD</label>
-                        <input type="password" name="confirm-password" id="confirm-password">
+                        <input type="password" name="confirm-password" id="confirm-password" tabindex="6" required>
+                        <span class="error-message" id="confirm-password-error">Passwords do not match!</span>
                     </div>
                 </div>
-            </form>
 
 
 
         </div>
         <div class="bottom">
             <button type="submit" class="submit-button">Sell My Info</button>
+
+            </form>
         </div>
     </div>
 </body>
+
+<script src="script.js"></script>
 
 </html>

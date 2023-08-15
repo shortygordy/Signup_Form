@@ -228,3 +228,10 @@ div>input {
     border-radius: 5px;
     color: var(--fontColor, white);
 }
+.error-message {
+    display: block;
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    opacity: 0%;
+}
